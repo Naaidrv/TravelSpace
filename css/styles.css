@@ -370,3 +370,19 @@ h3{
     }
 }
 
+@media (max-width: 400px) {
+
+    .logo img{
+        width: 40px;
+    }
+
+    #tabs li a{
+        display:flex;
+        color: white;
+        justify-content: center;
+        padding: 14px 20px;
+        text-align: center;
+        text-decoration: none;
+    }
+}
+
