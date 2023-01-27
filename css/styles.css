@@ -220,9 +220,13 @@ a.izdadcha {
 }
 
 .footer{
-    display:flex;
-    justify-content: space-between;
+    width: 100%;
+    display:inline-flex;
+    text-align: center;       
+    align-items: center;
+    justify-content: center;
 }
+
 
 .footer span{
     font-size: 13px;
@@ -346,15 +350,14 @@ h3{
     }
 
     .footer{
-        display:flex;
+        display:inline-flex;
         width: 100%;
         font-weight: 600;
-        color: #b600b6;
         align-items: center;
         justify-content: center;
     }
 
-    .footer .col-5, .footer .col-5{
+    .footer .col-5{
         width: 100%;
         text-align: center;
     }
