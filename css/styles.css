@@ -407,7 +407,7 @@ h3{
 }
 
 
-@media (max-width: 380px){
+@media (max-width: 390px){
     #tabs li a{
         display:flex;
         color: white;
