@@ -157,7 +157,7 @@ section{
     min-height: 100vh;
     letter-spacing: 2px;
     align-items: center;
-    margin-top: 10%;
+    margin-top: 5%;
     justify-content: center;
 }
 
@@ -323,6 +323,11 @@ h3{
 }
 
 @media (max-width: 720px){
+
+    .logo img{
+        width: 40px;
+    }
+
     header{
         background:rgba(61, 61, 61, 0.13); box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1); backdrop-filter: blur(8.6px); -webkit-backdrop-filter: blur(8.6px);
     }
